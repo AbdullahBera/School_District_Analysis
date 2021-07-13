@@ -2,7 +2,7 @@
 
 ## Overview of Project
 
-In this analysis, I supported Maria to analyze data from a variety of sources in a variety of formats of student scores from standardized tests in several schools. The data I analyzed is of 39,170 students from 15 schools where I used the Jupyter Notebook in Anaconda to run my code to analyze the data. The results of this analysis are intended to provide the School Board with insights regarding school performance, school budget, and school priorities. This analysis is done under the Family Educational Rights and Privacy Act (FERPA), respecting the privacy of the students in the data.  
+In this analysis, I supported Maria to analyze data from a variety of sources in a variety of formats of student scores from standardized tests in several schools. The data I analyzed is of 39,170 students from 15 schools where I used the Jupyter Notebook in Anaconda to run my code. The results of this analysis are intended to provide the School Board with insights regarding school performance, school budget, and school priorities. This analysis is done under the Family Educational Rights and Privacy Act (FERPA), respecting the privacy of the students in the data.  
 
 ### Objective 
 
@@ -11,7 +11,7 @@ I wanted to understand how changing the math and reading scores of students in T
 
 In this section, I comparatively analyze the results when 9th grader math and reading scores were present and when they were replaced with NaN's.
 
-* **How is the district summary affected?** There is a relatively small difference in the results of the district summary. As can be inferred in table one compared to table two; excluding the math and reading scores of 9th graders from Thomas High School relatively decreases the results of the metrics. This implies that the scores of 9th graders from Thomas high school are high causing such a fall in the metrics, especially in math scores when they are excluded.
+* **How is the district summary affected?** There is a relatively small difference in the results of the district summary. As can be inferred in table one compared to table two; excluding the math and reading scores of 9th graders from Thomas High School relatively decreases the results of the metrics. This implies that the scores of 9th graders from Thomas high school are high causing a fall in the metrics, especially when the math scores are excluded.
 	![district_summary_withoutnan](Resources/district_summary_withoutnan.png)
 	 ***Table 1: District Summary without NaN replacement***
  
@@ -24,7 +24,7 @@ In this section, I comparatively analyze the results when 9th grader math and re
 
 	![ths_after_change](Resources/ths_after_change.png)	***Table 4: Thomas High School After Number of Student Adjustment***
 
-	When comparing table 4 with the adjustment to the first case when I didn't change the math and reading scores of 9th graders from the analysis as in table 5, I find a relatively small drop in the results after the adjustments.
+	When comparing table 4 with the adjustment to the first case when I didn't exclude the math and reading scores of 9th graders from the analysis as in table 5, I find a relatively small drop in the results.
 
 	![ths_before_excluding_9th](Resources/ths_before_excluding_9th.png)***Table 5: Thomas High School Before Excluding 9th Graders***
 
@@ -68,6 +68,6 @@ In this section, I comparatively analyze the results when 9th grader math and re
 
 ## Conclusion 
 
-This is a small study in understanding the performance of Thomas High School compared to the 14 schools in the study. In this analysis, I tried to see how manipulating the data by changing the math and reading scores of 9th graders from Thomas High School will affect the results of a couple of metrics. By doing this I wanted to see whether they have a significant impact on the total outcomes or not. However, the results don't pronounce a significant impact because the changes in the outcome are very small. We can say that 9th graders at Thomas High School are good performers in math because excluding them from the district analysis decreased the overall result of the % passing math. Secondly, I can say that when excluding 9th graders from the analysis, Thomas High School's performance didn't change compared to other schools, it still remained second according to % overall passing. When reading table 10 I can say that there is a negative correlation between the metrics and the amount of money spent on each student. This is a question that can be delved into further to understand the reason behind the negative correlation. Moreover, from table 11 we can conclude that medium-sized schools performed relatively better than small or large sized schools. Lastly, table 12 explicitly shows that charter schools are better performing schools compared to district schools.
+This is a small study in understanding the performance of Thomas High School compared to the 14 schools in the study. In this analysis, I tried to see how manipulating the data by changing the math and reading scores of 9th graders from Thomas High School will affect the results of a couple of metrics. By doing this I wanted to see whether they have a significant impact on the total outcomes or not. However, the results don't pronounce a significant impact because the changes in the outcome are very small. We can say that 9th graders at Thomas High School are good performers in math because excluding them from the district analysis decreased the overall result of the % passing math. Secondly, I can say that when excluding 9th graders from the analysis, Thomas High School's performance didn't change compared to other schools, it still remained second according to % overall passing. When reading table 10 I can say that there is a negative correlation between the metrics and the amount of money spent on each student. This is a question that can be delved into further to understand the reason behind the negative correlation. Moreover, from table 11 we can conclude that medium-sized schools performed relatively better than small or large sized schools. Lastly, table 12 explicitly shows that charter schools are better performing schools compared to district schools. I would recommend the school board to conduct a thorough study for each school to see whether they are underperforming the district benchmark, and then conclude ways to enhance their performance. With this study the spending plan for each school can be updated and resources can be used more wisely.   
 ## Challenges Encountered 
 For most of writing this code, I had to go back and forth in the module and ask questions on Google to get the output I wanted. This was a sweet challenge because the more projects I get to complete the better I feel I become in searching for the right keywords. Compared to using Python in VS Code, I found it easier to use it in Jupyter Notebook.
